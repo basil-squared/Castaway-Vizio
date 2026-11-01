@@ -59,8 +59,8 @@ def create_payload_file():
         </style>
     </head>
     <body>
-        <h1 style="font-size: 50px;">pwned :3</h1>
-        <p style="font-size: 20px;">the tv is mine now.</p>
+        <h1 style="font-size: 50px;">gotcha!</h1>
+        <p style="font-size: 20px;">exploit confirmed.</p>
         <p style="color: #888;">(a reboot without restoring the original UI will result in the UI being inaccessible!)</p>
         <img src="image.gif" class="corner-gif" alt="victory">
     </body>
