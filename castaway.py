@@ -5,9 +5,7 @@
 # we abuse the pairing api, get an auth token, and inject a message url 
 # into the main ui process. 
 #
-# pro tip: the main ui is stubborn and ignores injections if its already running.
-# so we use pychromecast to force a dummy video load, which crashes the main ui,
-# then we instantly fire our payload so it boots clean.
+
 #
 
 
