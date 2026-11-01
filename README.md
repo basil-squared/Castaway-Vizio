@@ -10,7 +10,6 @@
 > **Firmware:** 11.0.120.1-1 (Chromium 72.0.3626.121, ARMv7l)
 
 
-**Vuln Type:** Authenticated RCE via Webview Injection / Persistent NVRAM DoS
 
 ## What does this thing do?
 This is a zero-day exploit for the Vizio SmartCast API. It abuses the pairing flow to get an `AUTH_TOKEN`, and then injects a malicious `MESSAGE` URL directly into the main Chromium UI process (`APP_ID: 1`). Because the UI is just a webview, this gives us arbitrary JavaScript execution on the TV's OS. 
