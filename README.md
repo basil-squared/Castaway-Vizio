@@ -4,8 +4,10 @@
 > This exploit modifies NVRAM and will brick the TV's UI into an infinite boot loop if you reboot without restoring it. I am not responsible if you use this on a hotel TV, a friend's TV, or a target you don't have explicit permission to test. Don't be a script kiddie.
 ## The most important part (summarrrryyyy)
 
-**Target:** Vizio E55-E1 Smart TV
-**Firmware:** 11.0.120.1-1 (Chromium 72.0.3626.121, ARMv7l)
+> [!IMPORTANT]
+> **Pending CVE:** Authenticated RCE via Webview Injection / Persistent NVRAM DoS.
+> **Target:** Vizio E55-E1 Smart TV
+> **Firmware:** 11.0.120.1-1 (Chromium 72.0.3626.121, ARMv7l)
 
 
 **Vuln Type:** Authenticated RCE via Webview Injection / Persistent NVRAM DoS
